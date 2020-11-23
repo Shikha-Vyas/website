@@ -1,0 +1,247 @@
+
+
+
+
+body{
+  font-family:  'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+h1{
+    color:  #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin : 50px auto 0 auto;
+}
+h2{
+  color:  #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+h3{
+  color:  #11999E;
+  font-family:  'Montserrat', sans-serif;
+}
+hr{
+  border-top-width: 8px;
+  border-style :none;
+  border-top-style: dotted ;
+  color :grey;
+  width :5%;
+  margin: 100px auto;
+}
+a{
+  color:  #11999E;
+}
+
+#role{
+  font-weight: normal;
+}
+.shikha{
+  border-radius: 100%;
+  width: 20%;
+}
+.top-container{
+  background-color: #e3fdfd;
+  padding-top: 100px;
+  position: relative;
+}
+.top-cloud{
+  position: absolute;
+  right : 300px;
+  top: 50px;
+}
+.bottom-cloud{
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+.contact-msg{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+.p{
+  line-height: 2;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.middle-container{
+  margin: 100px 0;
+}
+
+  .classname {
+ -moz-box-shadow: 0 10px 14px -7px #218594;
+ -webkit-box-shadow: 0 10px 14px -7px #218594;
+ box-shadow: 0 10px 14px -7px #218594;
+ background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11cdd4), color-stop(1, #11999e) );
+ background:-moz-linear-gradient( center top, #11cdd4 5%, #11999e 100% );
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11cdd4', endColorstr='#11999e');
+ background-color:#11cdd4;
+ -webkit-border-top-left-radius:8px;
+ -moz-border-radius-topleft:8px;
+ border-top-left-radius:8px;
+ -webkit-border-top-right-radius:8px;
+ -moz-border-radius-topright:8px;
+ border-top-right-radius:8px;
+ -webkit-border-bottom-right-radius:8px;
+ -moz-border-radius-bottomright:8px;
+ border-bottom-right-radius:8px;
+ -webkit-border-bottom-left-radius:8px;
+ -moz-border-radius-bottomleft:8px;
+ border-bottom-left-radius:8px;
+text-indent:0;
+ display:inline-block;
+ color:#ffffff;
+ font-family:arial;
+ font-size:20px;
+ font-weight:bold;
+ font-style:normal;
+height:48px;
+ line-height:48px;
+width:155px;
+ text-decoration:none;
+ text-align:center;
+ text-shadow:0 1px 0 #427282;
+}.classname:hover {
+ background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11999e), color-stop(1, #11cdd4) );
+ background:-moz-linear-gradient( center top, #11999e 5%, #11cdd4 100% );
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11999e', endColorstr='#11cdd4');
+ background-color:#11999e;
+}.classname:active {
+ position:relative;
+ top:1px;
+}
+
+.bottom-container{
+  padding-top: 50px;
+  background-color: #66BFBF;
+  padding-bottom: 20px;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+.footer-link{
+  margin: 10px 20px;
+  color: #11999E;
+  text-decoration: none;
+
+}
+.last{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.profile{
+  color: #40514E;
+}
+.skill-row{
+  line-height: 2;
+  margin: 50px auto;
+  text-align: left;
+  width: 50%;
+}
+.skill1{
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+.skill2{
+  float: right;
+  margin-left:30px;
+  width: 20%;
+}
+.skill3{
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body{
+  background-color: white;
+}
+.top-container{
+  height: 200px;
+  width: 200px;
+  border: solid 10px;
+  padding: 20px;
+  background-color: #e3fdfd;
+}
+.middle-container{
+  height: 200px;
+  width: 200px;
+  border: solid 20px;
+  margin-left: 260px;
+  background-color: red;
+}
+.bottom-container{
+  height: 200px;
+  width: 200px;
+  border:solid 10px;
+  margin-left: 500px;
+  background-color: yellow;
+}
+
+*/
+
+/* span is used for inline . Ex. anchor tags , image tags,span tag. Span take as much space as that of the elements within
+it . We cant change the width */
+/* div , p, headings are block elements . They take up the whole line . But block elements ,we can chamge the width but
+still they dont allow anyone to sit in the same line*/
+/*display:inline-block for best of both worlds*/
+/*display:none  hides the content as if it didnt existed*/
+/*or you can change the visiblity:hidden so content will not be displayed but that space will be shown .*/
+
+/*
+.top-container{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+.middle-container{
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  position: relative;
+  bottom: 200px;
+  left: 200px;
+}
+.bottom-container{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: relative;
+  bottom: 400px;
+  left: 400px;
+}
+*/
+/*Relatve positioning - relative to its original position*/
+/*Absolute positionig - relative to its direct parent*/
+/* https://codepen.io/rcyou/pen/QEObEk*/
